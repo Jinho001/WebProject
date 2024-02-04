@@ -96,7 +96,7 @@ const signUp = function () {
         userIds.push(inputId.value);
         userPws.push(inputPw.value);
         alert('회원가입에 성공하였습니다.\n가입한 정보로 로그인 하세요(미구현)')
-        location.href = './signIn.html';
+        location.href = "./signIn.html";
     }
 
 }
