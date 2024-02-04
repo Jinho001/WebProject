@@ -1,0 +1,533 @@
+@charset "UTF-8";
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: black;
+    color:white;
+}
+
+body{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+div#wrap1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 80px;
+    color: white;
+}
+
+a#secret{
+    font-size: 60px;
+    color:white;
+    text-decoration: none;
+}
+
+a#secret:hover{
+    color:rgb(39, 186, 255)
+}
+
+div#signInContainer{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+div.signIn{
+    display: flex;
+    }
+
+div.signIn>label{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width:50px;
+    height:50px;
+    background-color: lightgray;
+    border-radius: 10px 0 0 10px ;
+}
+
+img#idLogo{
+    border-radius: 10px 0 0 10px ;
+    width: 40px;
+    height:40px;
+    background-color: lightgray;
+    margin:auto
+}
+
+img#pwLogo{
+    border-radius: 10px 0 0 10px ;
+    width: 40px;
+    height:40px;
+    background-color: lightgray;
+    margin:auto
+}
+input{
+    color: black;
+    padding: 0 10px 0 10px;  
+}
+input.signIn{
+    border: 0;
+    background-color: white;
+    border-radius: 0 10px 10px 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width : 300px;
+    height : 50px;
+}
+
+button.signIn{
+    margin: 10px; 
+    width :140px;
+    height : 50px;
+    background-color: rgb(31, 139, 189);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+button.signUp{
+    margin: 10px; 
+    width :140px;
+    height : 50px;   
+    background-color:rgb(31, 139, 189);
+    font-size: 20px;
+}
+
+div#signUpContainer{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+div.signUp{
+    display: flex;
+    }
+
+div.signUp>label{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width:50px;
+    height:50px;
+    background-color: lightgray;
+    border-radius: 10px 0 0 10px ;
+}
+img#idLogo{
+    width: 40px;
+    height:40px;
+    background-color: lightgray;
+    margin:auto
+}
+img#pwLogo{
+    width: 40px;
+    height:40px;
+    background-color: lightgray;
+    margin:auto
+}
+
+input.signUp{
+    border: 0;
+    background-color: white;
+    border-radius: 0 10px 10px 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width : 300px;
+    height : 50px;
+}
+
+div.signUp input#userid{
+    border: 0;
+    background-color: white;
+    border-radius: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width : 220px;
+    height : 50px;
+}
+
+button#checkId{
+    border: 0;
+    color: black;
+    background-color: white;
+    border-radius: 0 10px 10px 0;
+    width:80px;
+    height:50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+button:active{
+    background-color: darkgray;
+}
+
+p#checkText{
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+    width:60px;
+    height : 30px;
+    background-color:lightgray;
+    color:black
+}
+p#checkText:active{
+    background-color:darkgray;
+}
+img#ivLogo{
+    width: 30px;
+    height:30px;
+    background-color: lightgray;
+    margin:auto
+}
+
+div.signUp input#userpw{
+    border: 0;
+    background-color: white;
+    border-radius: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width : 250px;
+    height : 50px;
+}
+
+div.signUp input#userpw2{
+    border: 0;
+    background-color: white;
+    border-radius: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width : 220px;
+    height : 50px;
+}
+
+div.signUp input#inviteCode{
+    border: 0;
+    background-color: white;
+    border-radius: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width : 250px;
+    height : 50px;
+}
+
+span#pwCheck1{
+    margin: auto;
+    border-radius: 0 10px 10px 0;
+    width:50px;
+    height:50px;
+    background-color: white;
+}
+
+p#pwText{
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+    width:60px;
+    height : 30px;
+    background-color:lightgray;
+    color:black
+}
+p#checkText:active{
+    background-color:darkgray;
+}
+
+button#pwCheck2{
+    border: 0;
+    color: black;
+    background-color: white;
+    border-radius: 0 10px 10px 0;
+    width:80px;
+    height:50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+p#pwText:active(){
+    background-color:darkgray;
+}
+
+span#ivCheck{
+    margin: auto;
+    border-radius: 0 10px 10px 0;
+    width:50px;
+    height:50px;
+    background-color: white;
+}
+
+img#pwMark{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    margin : 15px;
+    visibility: hidden;
+}
+
+img#ivMark{
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+    background-color: white;
+    visibility: hidden;
+}
+
+div#wrap2{
+    width: 90vh;
+    height: 90vh;
+    padding : 2vh;
+    display:flex;
+    margin : 0 auto;
+    flex-flow: column;
+}
+
+#me{
+    font-size: 5vh;
+    margin-bottom: 10px;
+    
+}
+div.line{
+    margin: 5px 20px 5px 20px;
+    font-size: 2.5vh;
+}
+
+#like>p{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#like{
+    text-align: center;
+    margin-top: auto;
+}
+
+
+#like table{
+    height: 300px;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 5px;
+    margin: 0 auto;
+    width: 90%;
+    }
+
+td{
+    width:  150px;
+    height: 150px;
+    text-align: center;
+}
+
+td>img{
+    max-width: 150px;
+    width:100%;
+    height:100%;
+}
+
+#program, #switch, #jelly, #thirsty, #tdp, #cong{
+    display : none;
+}
+
+td>img.action:hover{
+    border: dashed white;
+}
+
+img#switch{
+    position: relative;
+    z-index: 1;
+}
+
+img#sad{
+    position: absolute;
+    z-index: 2;
+    width: 50px;
+    height:50px;
+    display: none;
+    margin:50px
+    }
+
+.morebtn{
+    border: none;
+    border-radius: 3px;
+    height:14px;
+    padding: 2px;
+    color: black;
+    font-size: 10px;
+    line-height: 10px;
+    background-color: lightgray;
+}
+
+#more2, #more3, #more4, #more5, #more6, #more7{
+   display : none;
+}
+
+#last{
+    opacity: 0;
+}
+
+a#line5{
+    font-size: 2.5vh;
+    text-decoration: none;
+}
+
+a#line5:hover{
+    color :rgb(39, 186, 255)
+}
+
+#line6:hover{
+    color :rgb(39, 186, 255)
+}
+
+#wrap3{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 80px;
+    color: white;
+    position: relative;
+}
+
+
+div#Secret:hover{
+    color: rgb(39, 186, 255);
+    
+}
+
+div#Friend{
+    display:none;
+    color :rgb(39, 186, 255);
+}
+
+div#contents{
+    display: flex;
+    flex-flow: low;
+    justify-content: center;
+    align-items: center;
+}
+
+span.congs{
+    width: 100vh;
+    height: 50vh;
+    margin: 10px;
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+    position: relative
+}
+
+#Lbtn{
+    width: 0;
+    height: 0;
+    margin: 5px;
+    border-bottom: 50px solid transparent;
+    border-top: 50px solid transparent;
+    border-right: 50px solid lightgray;
+    border-left: 50px solid transparent;
+}
+#Lbtn:active{
+    width: 0;
+    height: 0;
+    margin: 5px;
+    border-bottom: 50px solid transparent;
+    border-top: 50px solid transparent;
+    border-right: 50px solid darkgray;
+    border-left: 50px solid transparent;
+    background-color: black;
+}
+
+#Rbtn{
+    width: 0;
+    height: 0;
+    margin: 5px;
+    border-bottom: 50px solid transparent;
+    border-top: 50px solid transparent;
+    border-left: 50px solid lightgray;
+    border-right: 50px solid transparent;
+}
+#Rbtn:active{
+    width: 0;
+    height: 0;
+    margin: 5px;
+    border-bottom: 50px solid transparent;
+    border-top: 50px solid transparent;
+    border-left: 50px solid darkgray;
+    border-right: 50px solid transparent;
+    background-color: black;
+}
+
+div#goMain:hover{
+ color:rgb(39, 186, 255)
+}
+
+img.cong{
+    width:50%;
+    border : white solid;
+}
+
+video.cong{
+    border: white solid;
+    width: 50vh;
+    height: 50vh;
+}
+
+#c1, #c2, #c3, #c4, #c5, #c6, #c7, #c8, #c9{
+    position: absolute;
+}
+
+#c1{
+    z-index: 8;
+    left : 30px;
+}
+
+
+#c2{
+    left: 60px;
+    z-index: 7;
+}
+
+#c3{
+    left: 90px;
+    z-index: 6;
+}
+
+#c4{
+    left : 120px;
+    z-index: 5;
+}
+
+#c5{
+    left: 150px;
+    z-index: 4;
+}
+
+#c6 { 
+    left: 180px;
+    z-index: 3;
+}
+
+#c7{
+    left: 210px;
+    z-index: 2;
+}
+
+#c8{
+    left : 240px;
+    z-index: 1;
+}
+#c9{
+    left : 270px;
+    z-index: 0;
+}
+

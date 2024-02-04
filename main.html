@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/layout.css">
+    <script src="./JS/out.js"></script>
+    <title>Main</title>
+</head>
+<body>
+    <div id="wrap2">
+        <div id="me">
+            김진호
+            <div class="line">
+                <span id="line1">소띠, 천안사람, 남성, INTP </span>
+                <span id="line1_1"></span>
+                <span>
+                    <button class="morebtn" id="more1" onclick="btn1()">more</button>
+                    <button class="morebtn" id="more2" onclick="btn2()">more</button>
+                 </span>
+            </div>
+            <div class="line">
+                <span id="line2"></span>
+                <button class="morebtn" id="more3" onclick="btn3()">more</button>
+                <span id="line2_2"></span>
+                <button class="morebtn" id="more4" onclick="btn4()">more</button>
+
+             </div>
+             <div class="line">    
+                <span id="line3"></span>
+                <button class="morebtn" id="more5" onclick="btn5()">more</button> 
+            </div>
+            <div class="line">
+                <span id="line3_2"></span>
+                <button class="morebtn" id="more6" onclick="btn6()">more</button>
+            </div>
+            <div class="line">    
+                <span id="line4"></span>
+                <a href="./cong.html" target="_blank" id="line5"></a><button class="morebtn" id="more7" onclick="btn7()">more</button>
+            </div>
+            <div class="line">
+                <span id="line6" onclick="btn8()"></span>
+                <button class="morebtn" id="last" onclick="window.open('./friends.html')">Secret</button>
+            </div>
+        </div>
+        <div id="like">
+            <p>눌러보세요</p>
+            <table>
+                <tr>
+                    <td><img src="./Images/bluebird.jpg" onclick="go('bluebird')" id="bludbird" class="action" alt=""></td>
+                    <td><img src="./Images/abouttime.jpg" onclick="go('abouttime')" id="abouttime" class="action"></td>
+                    <td><img src="./Images/prog.png" id="program"></td>
+                    <td>
+                        <img src="./Images/sad.png" id = "sad" alt="">
+                        <img src="./Images/switch.png" id="switch" class="action">
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="./Images/jelly.png" onclick="go('jelly')" id="jelly" class="action" alt=""></td>
+                    <td><img src="./images/thirsty.jpg" onclick="go('thirsty')" id="thirsty" alt="" class="action"></td>
+                    <td><img src="./Images/3dp.jpg" id="tdp"></td>
+                    <td><img src="./Images/cong.PNG" onclick="window.open('./cong.html')" id="cong" alt="" class="action"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+</body>
+</html>

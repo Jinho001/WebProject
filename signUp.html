@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./CSS/layout.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./JS/out.js"></script>
+    <title>Sign Up</title>
+</head>
+<body>
+    <div id="signUpContainer">
+        <div id="main"><a id="secret" href="./index.html">Secret</a></div>
+        <div class="signUp">
+            <label for="#userid"><img src="./Images/id.png" alt="" id="idLogo"></label>
+            <input type="text" class="signUp" id="userid" placeholder=" id1234: 중복">
+            <span><button type="button" id="checkId" onclick="idCheck()"><p id="checkText">중복확인</p></button></span>
+        </div>
+            
+        <div class="signUp">
+            <label for="#userpw"><img src="./Images/pw.png" alt="" id="pwLogo"></label>
+            <input type="password" class="signUp" id="userpw" placeholder=" 비밀번호를 입력하세요 ">
+            <span id="pwCheck1"><img src="./Images/mark.png" alt="" id="pwMark"></span>
+        </div>
+        <div class="signUp">
+            <label for="#userpw2"><img src="./Images/pw.png" alt="" id="pwLogo"></label>
+            <input type="password" class="signUp" id="userpw2" placeholder=" 비밀번호를 한 번 더 입력하세요">
+            <span><button type="button" id="pwCheck2" onclick="pwCheck()"><p id="pwText">일치 확인</p></button></span>
+        </div>
+        <div class="signUp">
+            <label for="inviteCode"><img src="./Images/invite.png" alt="" id="ivLogo"></label>
+            <input type="text" class="signUp" id="inviteCode" placeholder=" 초대코드 : id1234 ">
+            <span id="ivCheck"><img src="./Images/mark.png" alt="" id="ivMark"></span>
+        </div>
+        <div>
+            <button type="button" onclick="signUp()" class="signUp">Sign up</button>
+            
+        </div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/layout.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./JS/out.js"></script>
+</head>
+<body>
+    <div id="signInContainer">
+        <div id="main"><a id="secret" href="./index.html">Secret</a></div>
+        <div class="signIn">
+            <label for="#userid"><img src="./Images/id.png" alt="" id="idLogo"></label>
+            <input type="text" class="signIn" id="userid" placeholder=" id : id1234 "></div>
+        <div class="signIn">
+            <label for="#userpw"><img src="./Images/pw.png" alt="" id="pwLogo"></label>
+            <input type="password" class="signIn" id="userpw" placeholder=" pw : pw1234 ">
+        </div>
+        <div>
+            <span><button type="button" class="signIn" onclick="signIn()">Sign in</button></span>
+            <span><button type="button" class="signUp" onclick="goSignUp()">Sign up</button></span>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
